@@ -118,7 +118,7 @@ public class ContinentsMenu extends Menu {
 		System.out.printf("3 - Number of time zones of %s\n", continent.getContinentName());
 		System.out.printf("4 - Geographical info for %s\n", continent.getContinentName());
 		System.out.printf("5 - List of all countries in %s\n", continent.getContinentName());
-		System.out.println("9 - Back to previous menu");
+		System.out.println("9 - Back");
 		// int choice = takeConcreteContinentsChoice();
 	}
 
