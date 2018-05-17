@@ -10,7 +10,7 @@ public class Africa extends Continent {
 	public Africa() {
 		setContinentName(ContinentName.Africa);
 		setArea("30,37 million km2");
-		setPopulation("1.216000000 billion");
+		setPopulation("1.216 billion");
 		setTimeZones(6);
 		ArrayList<String> list = new ArrayList<String>(Arrays.asList("Algeria", "Angola", "Benin", "Botswana",
 				"Burkina Faso", "Burundi", "Cabo Verde", "Cameroon", "Central Africa", "Chad", "Comoros",

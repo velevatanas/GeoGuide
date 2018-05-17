@@ -102,7 +102,20 @@ public class CountryMenu extends Menu {
 				countryChoice = takeConcreteCountryChoice(switzerland);
 				countryInfo(switzerland, countryChoice);
 			} else if (choice == 7) {
-
+				Country spain = new Country(ContinentName.Europe, "Spain", Religion.Christianity, "505 990 km2",
+						"46.354 million", 1, "Unitary parliamentary constitutional monarchy", "Madrid", 
+						"Spain , officially the Kingdom of Spain is a country mostly located on the Iberian Peninsula\n"
+						+ "in Europe. The country's mainland is bordered to the south and east by the Mediterranean\n"
+						+ "Sea except for a small land boundary with Gibraltar; to the north and northeast by France,\n"
+						+ "Andorra, and the Bay of Biscay; and to the west and northwest by Portugal and the Atlantic\n"
+						+ "Ocean. Spanish territory includes two large archipelagoes, the Balearic Islands in the\n"
+						+ "Mediterranean Sea and the Canary Islands off the African Atlantic coast, two cities, Ceuta and\n"
+						+ "Melilla, on the African mainland and several small islands in the Alboran Sea near the African\n"
+						+ "coast. Spain is the only European country to have a border with an African country (Morocco)\n");
+				concreteCountryMenuShow(spain);
+				drawLine();
+				countryChoice = takeConcreteCountryChoice(spain);
+				countryInfo(spain, countryChoice);
 			}
 		}
 	}
