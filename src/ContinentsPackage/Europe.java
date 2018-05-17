@@ -9,8 +9,8 @@ import MainPackage.ContinentName;
 public class Europe extends Continent {
 	public Europe() {
 		setContinentName(ContinentName.Europe);
-		setArea("10,18 mln km2");
-		setPopulation("741.4 mln");
+		setArea("10,18 million km2");
+		setPopulation("741.4 million");
 		setTimeZones(7);
 		ArrayList<String> list = new ArrayList<String>(Arrays.asList("Albania", "Andorra", "Armenia", "Azerbaijan",
 				"Belarus", "Belgium", "Bosnia and Herzegovina", "Bulgaria", "Croatia", "Cyprus", "Czech Republic",

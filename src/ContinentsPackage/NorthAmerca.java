@@ -9,8 +9,8 @@ import MainPackage.ContinentName;
 public class NorthAmerca extends Continent {
 	public NorthAmerca() {
 		setContinentName(ContinentName.North_America);
-		setArea("24,71 mln km2");
-		setPopulation("579 mln");
+		setArea("24,71 million km2");
+		setPopulation("579 million");
 		setTimeZones(9);
 		ArrayList<String> list = new ArrayList<String>(Arrays.asList("Antigua and Barbuda", "Bahamas", "Barbados",
 				"Belize", "Canad", "Costa Rica", "Cuba", "Dominica", "Dominican Republic", "El Salvador", "Grenada",

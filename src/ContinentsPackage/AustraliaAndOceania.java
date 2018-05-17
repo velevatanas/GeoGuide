@@ -9,8 +9,8 @@ import MainPackage.ContinentName;
 public class AustraliaAndOceania extends Continent {
 	public AustraliaAndOceania() {
 		setContinentName(ContinentName.Australia_And_Oceania);
-		setArea("8,6 mln km2");
-		setPopulation("35 mln");
+		setArea("8,6 million km2");
+		setPopulation("35 million");
 		setTimeZones(3);
 		ArrayList<String> list = new ArrayList<String>(
 				Arrays.asList("Australia", "Fiji", "Kiribati", "Marshall Islands", "Micronesia", "Nauru", "New Zealand",

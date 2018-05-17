@@ -12,8 +12,8 @@ public class Asia extends Continent {
 
 	public Asia() {
 		setContinentName(ContinentName.Asia);
-		setArea("44.58 mln km2");
-		setPopulation("4.462676731 bln");
+		setArea("44.58 million km2");
+		setPopulation("4.462676731 billion");
 		setTimeZones(11);
 		ArrayList<String> list = new ArrayList<String>(Arrays.asList("Afghanistan", "Armenia", "Azerbaijan", "Bahrain",
 				"Bangladesh", "Bhutan", "Brunei", "Cambodia", "China", "Cyprus", "Georgia", "India", "Indonesia",

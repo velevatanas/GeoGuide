@@ -9,7 +9,7 @@ import MainPackage.ContinentName;
 public class Antarctica extends Continent {
 	public Antarctica() {
 		setContinentName(ContinentName.Antarctica);
-		setArea("14 mln km2");
+		setArea("14 million km2");
 		setPopulation("1000");
 		setTimeZones(24);
 		ArrayList<String> list = new ArrayList<String>(Arrays.asList("No countries in Antarctica"));

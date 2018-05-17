@@ -10,8 +10,8 @@ public class SouthAmerica extends Continent {
 
 	public SouthAmerica() {
 		setContinentName(ContinentName.South_America);
-		setArea("17,84 mln km2");
-		setPopulation("422.5 mln");
+		setArea("17,84 million km2");
+		setPopulation("422.5 million");
 		setTimeZones(5);
 		ArrayList<String> list = new ArrayList<String>(Arrays.asList("Argentina", "Bolivia", "Brazil", "Chile",
 				"Colomba", "Ecuador", "Guyana", "Paraguay", "Peru", "Suriname", "Uruguay", "Venezuela"));
