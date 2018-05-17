@@ -150,17 +150,27 @@ public class ContinentsMenu extends Menu {
 	protected void continentInfo(Continent continent, int choice) {
 		while (choice != 9) {
 			if (choice == 1) {
+				drawStars();
 				System.out.printf("The area of %s is %s\n", continent.getContinentName(), continent.getArea());
+				drawStars();
 			} else if (choice == 2) {
+				drawStars();
 				System.out.printf("The popultion of %s is %s\n", continent.getContinentName(),
 						continent.getPopulation());
+				drawStars();
 			} else if (choice == 3) {
+				drawStars();
 				System.out.printf("%s has %d different timezones\n", continent.getContinentName(),
 						continent.getTimeZones());
+				drawStars();
 			} else if (choice == 4) {
+				drawStars();
 				System.out.printf("%s \n", continent.getTouristInfo());
+				drawStars();
 			} else if (choice == 5) {
+				drawStars();
 				continent.getCountries().stream().forEach(x -> System.out.println(x));
+				drawStars();
 			}
 			drawLine();
 			beep();

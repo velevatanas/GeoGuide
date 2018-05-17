@@ -23,6 +23,10 @@ public abstract class Menu {
 		Stream.generate(() -> '-').limit(100).forEach(x -> System.out.print(x));
 		System.out.println();
 	}
+	protected void drawStars() {
+		Stream.generate(() -> '*').limit(100).forEach(x -> System.out.print(x));
+		System.out.println();
+	}
 
 	protected void printItems() {
 		Arrays.stream(items).forEach(x -> System.out.println(x));

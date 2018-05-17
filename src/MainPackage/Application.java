@@ -1,10 +1,10 @@
 package MainPackage;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+//import java.io.BufferedReader;
+//import java.io.IOException;
+//import java.io.InputStreamReader;
 
-import ContinentsPackage.Asia;
+//import ContinentsPackage.Asia;
 
 public class Application {
 
@@ -26,7 +26,10 @@ public class Application {
 				cm.continentsMode(cm);
 				
 			} else if (choice == 2) {
-				break;
+				CountryMenu counm = new CountryMenu();
+				//counm.printMenu();
+				//counm.printItems();
+				counm.countryMode(counm);
 			}
 			mm.printItems();
 			choice = mm.takeChoiceForMainMenu();
