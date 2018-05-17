@@ -14,21 +14,17 @@ public class Application {
 
 	protected void start() {
 		MainMenu mm = new MainMenu();
-		//ContinentsMenu cm = new ContinentsMenu();
+		// ContinentsMenu cm = new ContinentsMenu();
 		mm.printMenu();
 		mm.printItems();
 		int choice = mm.takeChoiceForMainMenu();
 		while (choice != 9) {
 			if (choice == 1) {
 				ContinentsMenu cm = new ContinentsMenu();
-				//cm.printMenu();
-				//cm.printItems();
 				cm.continentsMode(cm);
-				
+
 			} else if (choice == 2) {
 				CountryMenu counm = new CountryMenu();
-				//counm.printMenu();
-				//counm.printItems();
 				counm.countryMode(counm);
 			}
 			mm.printItems();

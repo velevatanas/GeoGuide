@@ -1,6 +1,5 @@
 package MainPackage;
 
-import java.awt.Toolkit;
 import java.io.IOException;
 
 public class MainMenu extends Menu {

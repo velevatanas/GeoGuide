@@ -3,14 +3,14 @@ package MainPackage;
 import java.util.ArrayList;
 
 public abstract class Continent {
-	private static ContinentName continentName;
-	private static String area;
-	private static String population;
-	private static ArrayList<String> countries;
-	private static int timeZones;
-	private static String touristInfo;
+	private ContinentName continentName;
+	private String area;
+	private String population;
+	private ArrayList<String> countries;
+	private int timeZones;
+	private String touristInfo;
 
-	protected static ContinentName getContinentName() {
+	protected ContinentName getContinentName() {
 		return continentName;
 	}
 
@@ -18,7 +18,7 @@ public abstract class Continent {
 		this.continentName = continentName;
 	}
 
-	protected static String getArea() {
+	protected String getArea() {
 		return area;
 	}
 
@@ -26,7 +26,7 @@ public abstract class Continent {
 		this.area = area;
 	}
 
-	protected static String getPopulation() {
+	protected String getPopulation() {
 		return population;
 	}
 
@@ -34,7 +34,7 @@ public abstract class Continent {
 		this.population = population;
 	}
 
-	protected static ArrayList<String> getCountries() {
+	protected ArrayList<String> getCountries() {
 		return countries;
 	}
 
@@ -42,7 +42,7 @@ public abstract class Continent {
 		this.countries = countries;
 	}
 
-	protected static int getTimeZones() {
+	protected int getTimeZones() {
 		return timeZones;
 	}
 
@@ -50,7 +50,7 @@ public abstract class Continent {
 		this.timeZones = timeZones;
 	}
 
-	protected static String getTouristInfo() {
+	protected String getTouristInfo() {
 		return touristInfo;
 	}
 
